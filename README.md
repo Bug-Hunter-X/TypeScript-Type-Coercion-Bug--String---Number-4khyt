@@ -1,0 +1,2 @@
+# TypeScript Type Coercion Bug
+This repository demonstrates a subtle bug in TypeScript related to type coercion.  The `add` function is designed to take two numbers and return their sum. However, due to JavaScript's loose typing, it compiles and runs without throwing a type error even when a string is passed as an argument. This showcases a limitation where TypeScript doesn't always prevent runtime type errors that might occur due to implicit conversions.
